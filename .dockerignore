@@ -1,0 +1,33 @@
+# Laravel
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+/.phpunit.cache
+
+# Vite
+/public/build
+/build
+
+# Composer
+composer.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore Docker stuff
+docker-compose.override.yml
+
+# Important : NE PAS IGNORER Dockerfile
+# Si tu vois cette ligne, supprime-la ou commente-la :
+# Dockerfile
