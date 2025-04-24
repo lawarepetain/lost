@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f4f4f4; /* Fond#f4f4f4 sombre */
+    color: #3498db;
+    background-image: url(/image/the-village.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.header-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 170px;
+    height: 170px;
+    border-radius: 30%;
+}
+
+.add-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.items-section {
+    margin-top: 20px;
+}
+
+.items-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-card {
+    background-color: #242424;
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #3498db;
+}
+
+.item-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 15px;
+    border: 2PX solid #3498db;
+}
+
+.item-details h3 {
+    margin: 0;
+}
+
+.item-details p {
+    margin: 5px 0;
+}
+
+span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: red;
+}
+
+.Lien{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.localisation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.modifier{
+    color: #3498db;
+    text-decoration: none;
+}
+
+.bouton{
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    color: white;
+    border-radius: 10px;
+    width: 90px;
+    height: 20px;
+}

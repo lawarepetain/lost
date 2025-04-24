@@ -1,0 +1,338 @@
+
+/* css 01 */
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    background-image: url(../image/shutterstock-676140937.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    margin-top: 3rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #3498db;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ecf0f1;
+}
+
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.step span {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Animations */
+.hero h1 {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.hero p {
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.btn {
+    animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.logo1{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}   
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#objets-ramasses {
+    text-align: center;
+    margin-top: 100px;
+   
+}
+
+#objets-ramasses h2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    margin: 0;
+}
+
+.item p {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.ramasse{
+    background-image:url(../image/Depositphotos_4385698_xl-2015-min-scaled.jpg);
+    margin-top: 50px;
+    background-size: cover;
+    padding-top: 8px;
+    
+}
+
+.pourquoi_loster{
+    height: 550px;
+    background-image: url(/image/R.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    margin-top: 20px;
+    
+}
+.ligne{
+    height: 2px;
+    width: 60%;
+    background-color: black;
+    
+}
+.texte{
+    font-size: 5rem;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    margin-left: 80px;
+}
+.pourquoi_2{
+    font-size: 1.3rem;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+.ajout{
+    height: 800px;
+    background-image: url(/image/background-2691002_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}   
+.ajout_1{
+    
+    margin-left: 50px;
+    color: #3498db;
+    font-size: 1.4rem;
+}   
+.ajout_2{
+    font-size: 7rem;
+    margin-left: 50px;
+    color: #3498db;
+}         
+.bouton_ajout{
+    margin-left: 50px;
+    height: 90px;
+    width: 200px;
+    border-radius: 90px;
+    background-color:  #3498db;
+    border: 2px solid white;
+    color: white;
+} 
+.action_l{
+    background-image: url(../image/jeremy-bishop-u8kwr3pWVA4-unsplash.jpg);
+    background-size: cover;
+    height: 750px;
+}
+.action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 750px;
+} 
+.action_1{
+    font-size: 5rem;
+}
+.add{
+    height: 700px;
+    background-image: url(/image/togo-flag-with-grunge-texture-vector.jpg);
+    background-size: cover;
+}
+.add_loster{
+    display: flex;
+    flex-direction: column;
+    
+    height: 700px;
+}
+.add_1{
+    font-size: 7rem;
+
+}
+.add_2{
+    font-size: 1.4rem;
+}
+.add_l{
+    display: flex;
+    margin-left: 50px;
+    height: 90px;
+    width: 200px;
+    border-radius: 90px;
+    background-color:  #3498db;
+    border: 2px solid white;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.add_3{
+   text-decoration: double;
+   color: white;
+}
