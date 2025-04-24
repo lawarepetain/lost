@@ -21,6 +21,11 @@ class ObjetPerduController extends Controller
         $objets = ObjetPerdu::latest()->paginate(10);
         return view('objets.index', compact('objets'));
     }
+     
+    public function indexs(){
+        $objets = ObjetPerdu::all();
+        return view('dashboard', compact('objets'));
+   }
 
     // 📌 Affiche un seul objet
     public function show($id)

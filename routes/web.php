@@ -14,11 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\ObjetPerduController;
+use App\Http\Controllers\MessageController;
+use App\Http\Controllers\SignalementController;
+use App\Http\Controllers\NotificationController;
+
+
+
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('/dashboard', function () {
+Route::get('/dashboard', [ObjetPerduController::class, 'indexs']);
+Route::get('/dashboards', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
@@ -30,10 +37,7 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
-use App\Http\Controllers\ObjetPerduController;
-use App\Http\Controllers\MessageController;
-use App\Http\Controllers\SignalementController;
-use App\Http\Controllers\NotificationController;
+
 
 Route::get('/', function () {
     return view('welcome');
